@@ -21,30 +21,30 @@ O microserviço de criação do usuário tem como principal objetivo criar um us
 Os projetos estarão disponíveis no Swagger nas seguintes rotas:
 
 ### Local
-- User-MS: http://localhost:8081/swagger-ui/index.html#/
-- Email-MS: http://localhost:8082/swagger-ui/index.html#/
+- User-MS: [clique aqui](http://localhost:8081/swagger-ui/index.html#/)
+- Email-MS: [clique aqui](http://localhost:8082/swagger-ui/index.html#/)
 
 ### Docker
-- User-MS: http://localhost:81/swagger-ui/index.html#/
-- Email-MS: http://localhost:82/swagger-ui/index.html#/
+- User-MS: [clique aqui](http://localhost:81/swagger-ui/index.html#/)
+- Email-MS: [clique aqui](http://localhost:82/swagger-ui/index.html#/)
 
 ## Diagrama Demonstrando a Lógica do Projeto
 
 <img src="readme-archives/diagrama.png" alt="Diagrama" width="600" height="400">
 
-## Passo a passo de como executar o projeto:
+## Passo a passo de como executar o projeto
 
 Acesse o link desse vídeo para poder gerar a credencial necessária para utilizar o projeto: [aqui](https://www.youtube.com/watch?v=lSURGX0JHbA)
 
 configure as credenciais que estão definidas no: application.properties dos dois microserviços,e o docker compose.
 ajuste as credenciais que estão definidas como: SEU_EMAIL_AQUI e SUA_SENHA_AQUI dos arquivos ditos.
 
-### Requisitos:
+### Requisitos
 - docker
 - jdk 17
 - conta de email
 
-### Local:
+### Local
 
 execute:
 ```bash
